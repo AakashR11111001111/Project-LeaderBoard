@@ -11,7 +11,6 @@ var control = document.querySelector(".control");
 
 
 window.addEventListener("load",()=>{
-    body.style.filter = "blur(20px)";
     setTimeout(() => {
         body.style.filter = "blur(0px)"
     }, Math.floor(Math.random()*1000)+3000);
@@ -27,7 +26,7 @@ btn.addEventListener("click", () => {
             FName: fname.value,
             Lname: lname.value,
             Country: cntry.value,
-            Score: +score.value // Convert score to a number
+            Score: +score.value
         };
         scoreArr.push(Candidate);
         scoreArr.sort((a, b) => b.Score - a.Score);
@@ -76,11 +75,11 @@ function displayOnUi() {
 
             em.addEventListener("click", (cl) => {
                 if (cl.target.textContent == "+5") {
-                    e.Score += 5; // Update score in scoreArr
+                    e.Score += 5;
                     scoreArr.sort((a, b) => b.Score - a.Score);
                     displayOnUi();
                 } else if (cl.target.textContent == "-5") {
-                    if (e.Score >= 5) e.Score -= 5; // Update score in scoreArr
+                    if (e.Score >= 5) e.Score -= 5;
                     scoreArr.sort((a, b) => b.Score - a.Score);
                     displayOnUi();
                 }
