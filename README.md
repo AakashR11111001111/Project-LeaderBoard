@@ -10,10 +10,6 @@ A simple Leaderboard UI project where users can add players with their scores an
 - Remove a player from the leaderboard.
 - Blurred loading effect on page load.
 
-## Demo
-
-[Leaderboard UI Demo](https://aakashr11111001111.github.io/Project-LeaderBoard/)
-
 ## Live Demo
 
 You can view the live demo of the Leaderboard UI at the following link: [Leaderboard UI Live](https://yourusername.github.io/Leaderboard-UI/)
