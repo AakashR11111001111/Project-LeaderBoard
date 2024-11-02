@@ -78,16 +78,14 @@ function displayOnUi() {
                     e.Score += 5;
                     scoreArr.sort((a, b) => b.Score - a.Score);
                     displayOnUi();
-                } else if (cl.target.textContent == "-5") {
+                }else if(cl.target.textContent == "-5") {
                     if (e.Score >= 5) e.Score -= 5;
                     scoreArr.sort((a, b) => b.Score - a.Score);
                     displayOnUi();
+                }else{
+                    scoreArr.splice(idx, 1);
+                    displayOnUi();
                 }
-            });
-
-            dltBtn.addEventListener("click", () => {
-                scoreArr.splice(idx, 1);
-                displayOnUi();
             });
         });
     });
