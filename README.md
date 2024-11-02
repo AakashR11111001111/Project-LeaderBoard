@@ -12,7 +12,7 @@ A simple Leaderboard UI project where users can add players with their scores an
 
 ## Live Demo
 
-You can view the live demo of the Leaderboard UI at the following link: [Leaderboard UI Live](https://yourusername.github.io/Leaderboard-UI/)
+You can view the live demo of the Leaderboard UI at the following link: [Leaderboard UI Live](https://aakashr11111001111.github.io/Project-LeaderBoard/)
 
 ## Technologies Used
 
