@@ -99,6 +99,7 @@ hr{
     width: 90%;
     margin: 20px auto;
     border: none;
+    border-radius: 5px;
     height: 3px;
     background: linear-gradient(to bottom right, #ad5389, #3c1053);
 }
